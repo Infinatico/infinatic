@@ -1,11 +1,11 @@
 {
-  "prefix": "//",
-  "token": "DISCORD_BOT_TOKEN",
-  "sellix_api_key": "SELLIX_API_KEY",
+  "prefix": "/",
+  "token": "",
+  "sellix_api_key": "",
   "permission_roles":[
-    12345,
-    67890
+    740909904243589210,
+    740909904780460053
   ],
-  "customer_role": 12345,
-  "restock_channel": 12345
+  "customer_role": 740909908374847499,
+  "restock_channel": 740909919208734780
 }
