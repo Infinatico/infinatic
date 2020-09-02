@@ -224,7 +224,6 @@ async def replace(ctx, order_id, amount : int):
 
     data = {
         "title": product_info["title"],
-        "price": product_info["price"],
         "type": product_info["type"],
         "currency": product_info["currency"],
         "serials": new_stock
@@ -265,9 +264,9 @@ async def on_ready():
 # Helper Functions
 def printBanner():
     print("-------------------------------------------")
-    print("SELLIX BOT")
+    print("INFINATIC'S SHOP BOT")
     print("-------------------------------------------")
-    print("=> Started Sellix Bot by Nergon#4972")
+    print("=> Started Sellix Bot for Infinatic")
 
 
 def set_default():
